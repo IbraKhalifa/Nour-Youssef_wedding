@@ -833,22 +833,22 @@ button.flat-card {
 
 .flat-card {
   opacity: 0;
-  animation: cardFloat 0.4s ease forwards;
+  animation: cardFloat 0.6s ease forwards;
 }
-.card-envelope { animation-delay: 0.05s; }
-.card-date     { animation-delay: 0.1s; }
-.card-save     { animation-delay: 0.15s; }
-.card-rsvp     { animation-delay: 0.2s; }
-.card-details  { animation-delay: 0.25s; }
-.card-location { animation-delay: 0.3s; }
+.card-envelope { animation-delay: 0.1s; }
+.card-date     { animation-delay: 0.2s; }
+.card-save     { animation-delay: 0.35s; }
+.card-rsvp     { animation-delay: 0.45s; }
+.card-details  { animation-delay: 0.55s; }
+.card-location { animation-delay: 0.65s; }
 
 /* When cardFloat finishes, restore the intended rotation */
-.card-envelope { animation: cardFloat 0.4s ease 0.05s forwards; }
-.card-date     { animation: cardFloat 0.4s ease 0.1s forwards; }
-.card-save     { animation: cardFloat 0.4s ease 0.15s forwards; }
-.card-rsvp     { animation: cardFloat 0.4s ease 0.2s forwards; }
-.card-details  { animation: cardFloat 0.4s ease 0.25s forwards; }
-.card-location { animation: cardFloat 0.4s ease 0.3s forwards; }
+.card-envelope { animation: cardFloat 0.6s ease 0.1s forwards; }
+.card-date     { animation: cardFloat 0.6s ease 0.2s forwards; }
+.card-save     { animation: cardFloat 0.6s ease 0.35s forwards; }
+.card-rsvp     { animation: cardFloat 0.6s ease 0.45s forwards; }
+.card-details  { animation: cardFloat 0.6s ease 0.55s forwards; }
+.card-location { animation: cardFloat 0.6s ease 0.65s forwards; }
 
 .countdown,
 .board-countdown {
@@ -858,7 +858,7 @@ button.flat-card {
   margin-top: 20px;
   opacity: 0;
   transform: translateY(10px);
-  animation: fadeUp 0.5s ease 0.2s forwards;
+  animation: fadeUp 1s ease 1s forwards;
 }
 
 .board-countdown {
@@ -1798,7 +1798,7 @@ button.flat-card {
 
 /* Screen transition */
 .screen.active {
-  animation: screenFadeIn 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  animation: screenFadeIn 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
 
 @keyframes screenFadeIn {
