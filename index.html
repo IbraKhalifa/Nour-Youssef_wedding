@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Youssef &amp; Nour Wedding Invitation</title>
+    <meta name="description" content="You're invited to the wedding of Youssef &amp; Nour. Join us to celebrate our special day on July 7, 2026 in Cairo, Egypt.">
+    <meta name="theme-color" content="#f5f1ea">
+    <meta property="og:title" content="Youssef &amp; Nour Wedding Invitation">
+    <meta property="og:description" content="Join us to celebrate our special day on July 7, 2026 in Cairo, Egypt.">
+    <meta property="og:type" content="website">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Great+Vibes&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css?v=8">
+  </head>
+  <body>
+    <main class="app" aria-live="polite">
+      <section class="screen cover active" id="cover" aria-label="Wedding cover">
+        <button class="cover-envelope-svg" type="button" data-go="board" aria-label="Open invitation" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none; background: transparent; padding: 0; margin: 0; cursor: pointer; z-index: 1;">
+          <img src="Tap to open.svg" alt="Tap to open" style="width: 100%; height: 100%; object-fit: cover; object-position: center; mix-blend-mode: multiply;">
+        </button>
+        <div class="cover-inner" style="position: absolute; top: 4vh; left: 0; width: 100%; z-index: 2; pointer-events: auto; text-align: center;">
+          <p class="eyebrow">THE WEDDING OF</p>
+          <h1><span>Youssef</span><b>&amp;</b><span>Nour</span></h1>
+          
+          <div class="countdown" id="wedding-countdown" aria-label="Countdown to the wedding">
+            <div class="cd-item"><span id="cd-days">00</span><small>Days</small></div>
+            <div class="cd-item"><span id="cd-hours">00</span><small>Hours</small></div>
+            <div class="cd-item"><span id="cd-mins">00</span><small>Mins</small></div>
+            <div class="cd-item"><span id="cd-secs">00</span><small>Secs</small></div>
+          </div>
+        </div>
+
+        <!-- Falling music icon on homepage -->
+        <div class="cover-music-drop" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M9 18V5l12-2v13"></path>
+            <circle cx="6" cy="18" r="3"></circle>
+            <circle cx="18" cy="16" r="3"></circle>
+          </svg>
+        </div>
+      </section>
+
+      <section class="screen board-screen" id="board" aria-label="Wedding invitation board">
+        <button class="back-home" type="button" data-go="cover" aria-label="Back to cover">&larr;</button>
+        
+        <div class="falling-music-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M9 18V5l12-2v13"></path>
+            <circle cx="6" cy="18" r="3"></circle>
+            <circle cx="18" cy="16" r="3"></circle>
+          </svg>
+        </div>
+
+        <!-- Board countdown -->
+        <div class="board-countdown" aria-label="Countdown to the wedding">
+          <div class="cd-item"><span id="cd-days-b">00</span><small>Days</small></div>
+          <div class="cd-item"><span id="cd-hours-b">00</span><small>Hours</small></div>
+          <div class="cd-item"><span id="cd-mins-b">00</span><small>Mins</small></div>
+          <div class="cd-item"><span id="cd-secs-b">00</span><small>Secs</small></div>
+        </div>
+
+        <div class="flatlay">
+
+          <!-- Decorative: top-left leaf sprig -->
+          <i class="deco deco-leaf deco-tl" aria-hidden="true"></i>
+          <!-- Decorative: curling ribbon -->
+          <i class="deco deco-ribbon deco-r1" aria-hidden="true"></i>
+          <!-- Decorative: small blossom cluster -->
+          <i class="deco deco-blossom deco-b1" aria-hidden="true"></i>
+          <!-- Decorative: eucalyptus sprig -->
+          <i class="deco deco-leaf deco-tr" aria-hidden="true"></i>
+          <!-- Decorative: scattered petals -->
+          <i class="deco deco-petal deco-p1" aria-hidden="true"></i>
+          <i class="deco deco-petal deco-p2" aria-hidden="true"></i>
+          <i class="deco deco-petal deco-p3" aria-hidden="true"></i>
+          <!-- Decorative: mid ribbon -->
+          <i class="deco deco-ribbon deco-r2" aria-hidden="true"></i>
+          <!-- Decorative: bottom blossom -->
+          <i class="deco deco-blossom deco-b2" aria-hidden="true"></i>
+          <!-- Decorative: photo corners -->
+          <i class="deco deco-corner deco-c1" aria-hidden="true"></i>
+          <i class="deco deco-corner deco-c2" aria-hidden="true"></i>
+
+          <!-- Card 1: Envelope (top-left, slight left tilt) -->
+          <div class="flat-card card-envelope">
+            <img src="Untitled design.svg" alt="Envelope with photo" loading="lazy">
+          </div>
+
+          <!-- Card 2: Date (upper-right, slight right tilt) -->
+          <div class="flat-card card-date">
+            <img src="Tuesday.svg" alt="Date Details" loading="lazy">
+          </div>
+
+          <!-- Card 3: Save the Date (mid-left, gentle clockwise) -->
+          <div class="flat-card card-save">
+            <img src="savethedate.svg" alt="Save the Date" loading="lazy">
+          </div>
+
+          <!-- Card 4: RSVP (mid-right, slight counter-clockwise) -->
+          <button class="flat-card card-rsvp" type="button" data-go="rsvp">
+            <img src="RSVP.svg" alt="RSVP" loading="lazy">
+          </button>
+
+          <!-- Card 5: Details (lower-left) -->
+          <button class="flat-card card-details" type="button" data-go="details">
+            <img src="Thhedetails.svg" alt="The Details" loading="lazy">
+          </button>
+
+          <!-- Card 6: Location (lower-right, replaces Our Story position) -->
+          <div class="flat-card card-location">
+            <div class="canva-card-wrapper">
+              <svg class="botanical-decor decor-top-left" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20,80 C30,60 50,50 80,20 C70,40 50,50 20,80 Z" fill="#ebd6a8" opacity="0.6"/>
+                <path d="M10,90 C20,70 40,60 70,30" stroke="#d4af37" stroke-width="1.5" stroke-linecap="round"/>
+                <circle cx="75" cy="25" r="2" fill="#d4af37"/>
+              </svg>
+              <svg class="botanical-decor decor-bottom-right" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20,80 C30,60 50,50 80,20 C70,40 50,50 20,80 Z" fill="#ebd6a8" opacity="0.6"/>
+                <path d="M10,90 C20,70 40,60 70,30" stroke="#d4af37" stroke-width="1.5" stroke-linecap="round"/>
+                <circle cx="75" cy="25" r="2" fill="#d4af37"/>
+              </svg>
+              <div class="arch-container">
+                <div class="pin-wrapper">
+                  <div class="pin-pulse"></div>
+                  <svg class="pin-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                </div>
+                <div class="script-subtitle">Celebrate with us at</div>
+                <h2 class="venue-name">Egypt View<br>Wedding Events</h2>
+                <p class="venue-location">
+                  محور عبد المجيد محمود كورنيش<br>
+                  Al Abageyah, El Mokattam<br>
+                  Cairo Governorate 11511
+                </p>
+                <a href="https://maps.app.goo.gl/1A3ryMJYoSk2r5kn7?g_st=ic" target="_blank" rel="noopener noreferrer" class="btn-smart" aria-label="Open in Google Maps">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                  </svg>
+                  <span>Get Directions</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Decorative: bottom leaf -->
+          <i class="deco deco-leaf deco-bl" aria-hidden="true"></i>
+          <i class="deco deco-petal deco-p4" aria-hidden="true"></i>
+
+        </div>
+
+        <!-- Our Story (below the flatlay) -->
+        <div class="story-container">
+          <button class="story-below-btn" type="button" data-go="story">
+            <div class="story-card-inner">
+              <span>Our</span>
+              <strong>STORY</strong>
+              <small>TAP TO READ</small>
+            </div>
+          </button>
+        </div>
+      </section>
+
+      <section class="screen rsvp-screen" id="rsvp" aria-label="Wedding RSVP">
+        <button class="back-home" type="button" data-go="board" aria-label="Back to invitation">&larr;</button>
+        <button class="top-back" type="button" data-go="board">&lt; CLICK TO GO BACK</button>
+
+        <header class="page-title rsvp-title">
+          <span>Kindly</span>
+          <strong>RSVP</strong>
+        </header>
+
+        <section class="rsvp-invite-card">
+          <span class="rsvp-seal">RS<br>VP</span>
+          <p>CELEBRATE WITH US<br>THE WEDDING OF</p>
+          <strong>Youssef<br><em>&amp;</em><br>Nour</strong>
+          <p>TOGETHER WITH THEIR<br>FAMILIES</p>
+        </section>
+
+        <form class="rsvp-form" id="rsvp-form">
+          <label>
+            <span>FULL NAME</span>
+            <input type="text" name="name" autocomplete="name" required>
+          </label>
+
+          <fieldset>
+            <legend>WILL YOU ATTEND?</legend>
+            <label class="radio-card">
+              <input type="radio" name="attending" value="yes" checked>
+              <span>Joyfully Accept</span>
+            </label>
+            <label class="radio-card">
+              <input type="radio" name="attending" value="no">
+              <span>Regretfully Decline</span>
+            </label>
+          </fieldset>
+
+          <label>
+            <span>NUMBER OF GUESTS</span>
+            <select name="guests">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+            </select>
+          </label>
+
+          <label>
+            <span>MESSAGE</span>
+            <textarea name="message" rows="4"></textarea>
+          </label>
+
+          <button class="submit-rsvp" type="submit">SEND RSVP</button>
+          <p class="rsvp-status" role="status" aria-live="polite"></p>
+        </form>
+      </section>
+
+      <section class="screen details-screen" id="details" aria-label="Wedding details">
+        <button class="back-home" type="button" data-go="board" aria-label="Back to invitation">&larr;</button>
+        <button class="top-back" type="button" data-go="board">&lt; CLICK TO GO BACK</button>
+
+        <header class="page-title details-title">
+          <span>THE</span>
+          <strong>Details</strong>
+        </header>
+
+        <p class="intro">We are so thrilled to celebrate this special day with you.</p>
+        <p class="intro">Below you will find all the details you need to enjoy<br>the event from start to finish.</p>
+
+        <section class="content-block">
+          <h2>DATE AND LOCATION</h2>
+          <p>Our ceremony will begin at 7:00pm<br>Please arrive at 6:30pm to settle in</p>
+          <h3>DATE</h3>
+          <p class="muted">July 7, 2026</p>
+          <h3>LOCATION</h3>
+          <p>Egypt View Wedding Events<br>محور عبد المجيد محمود كورنيش<br>Al Abageyah, El Mokattam, Cairo</p>
+        </section>
+
+        <section class="content-block timeline-block">
+          <h2>TIMELINE</h2>
+          <div class="timeline">
+            <div class="time-item left"><b>7:00 PM</b><span>Ceremony Begins</span></div>
+            <div class="time-item right"><b>7:30 PM</b><span>Photos</span></div>
+            <div class="time-item left"><b>8:00 PM</b><span>Cocktail Hour<br>Begins</span></div>
+            <div class="time-item right"><b>9:00 PM</b><span>Reception Seating<br>&amp; Grand Entrance</span></div>
+            <div class="time-item left"><b>9:30 PM</b><span>Dinner Served</span></div>
+            <div class="time-item right"><b>11:00 PM</b><span>First Dance</span></div>
+            <div class="time-item left"><b>12:30 AM</b><span>Cake Cutting &amp;<br>Dessert Served</span></div>
+            <div class="time-item right"><b>1:30 AM</b><span>Last Dance &amp;<br>Farewell</span></div>
+          </div>
+        </section>
+
+        <section class="content-block dress-block">
+          <h2>DRESS CODE</h2>
+          <p>We'd love for you to celebrate with us in formal or elevated<br>semi-formal attire.</p>
+          <p>Our colors include blush pink and warm rose, which you're<br>welcome to use as inspiration.</p>
+          <div class="swatches" aria-label="Dress code colors">
+            <span class="sage"></span>
+            <span class="ivory"></span>
+            <span class="stone"></span>
+            <span class="berry"></span>
+            <span class="blush"></span>
+          </div>
+        </section>
+
+        <footer class="invite-footer">
+          <span class="footer-flourish"></span>
+          <strong>Youssef<br>&amp; Nour</strong>
+          <small>JULY 7, 2026</small>
+          <button type="button" data-go="board">&lt; CLICK TO GO BACK</button>
+        </footer>
+      </section>
+
+      <section class="screen story-screen" id="story" aria-label="Our story">
+        <button class="back-home" type="button" data-go="board" aria-label="Back to invitation">&larr;</button>
+        <button class="top-back" type="button" data-go="board">&lt; CLICK TO GO BACK</button>
+        <header class="page-title story-title">
+          <span>Our</span>
+          <strong>STORY</strong>
+        </header>
+        <img src="images.svg" alt="Youssef and Nour photo collage" class="story-collage">
+        <section class="story-copy">
+          <p>We crossed paths. We talked for hours. Somehow, that was<br>only the beginning.</p>
+          <p>What started as a simple hello turned into late nights, inside<br>jokes, and a love that quietly became our favorite place to be.</p>
+          <p>We found magic in the everyday, laughter in the ordinary,<br>and comfort in choosing each other again and again.</p>
+          <p>Now the days are counting down, and our greatest wish is to<br>celebrate this moment with the people who know us, love us,<br>and have been part of our journey.</p>
+          <p>We cannot wait to laugh, dance, and make beautiful<br>memories with you by our side.</p>
+        </section>
+      </section>
+
+    </main>
+    
+    <!-- Background Music -->
+    <audio id="bg-music" loop preload="auto">
+      <source src="kalthhoom.mp3" type="audio/mpeg">
+    </audio>
+    <button id="music-toggle" class="music-toggle" aria-label="Toggle music">
+      <svg class="icon-play" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+      <svg class="icon-pause" viewBox="0 0 24 24" fill="currentColor" style="display: none;"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>
+    </button>
+    <script src="script.js?v=5"></script>
+  </body>
+</html>
